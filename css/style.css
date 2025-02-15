@@ -288,33 +288,65 @@ h6,
     margin-top: -15px;
     box-shadow: 0 .5rem 1.5rem rgba(22, 22, 22, 0.08);
 }
-
-/*** Pricing ***/
-.pricing .nav {
-    padding: 2px;
-}
-
-.pricing .nav-link {
-    padding: 12px 30px;
+.first-hero-text {
+    font-size: 44px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: black;
+  }
+.forth-section {
+    margin-top: 50px;
+  }
+  .forth-section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cards{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-bottom: 50px;
+      overflow-x: hidden;
+  }
+  .card1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid #88551e9f;
+      padding: 0px 6px;
+      flex-wrap: wrap;
+      overflow-x: hidden;
+  }
+  .card-img{
+      padding: 8px 8px;
+      background-color: #88551e;
+      margin: 30px 0px;
+  }
+  .cardimg{
+      background-color: #955e1e;
+      width: 16rem;
+  }
+  .first-card-text{
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+     color: #171924;
+  }
+  .second-card-text{
+    padding-bottom: 1rem;
+    color: #171924;
     font-weight: 500;
-    color: var(--dark);
-    background: #FFFFFF;
-}
-
-.pricing .nav-item:first-child .nav-link {
-    border-radius: 30px 0 0 30px;
-}
-
-.pricing .nav-item:last-child .nav-link {
-    border-radius: 0 30px 30px 0;
-}
-
-.pricing .nav-link.active {
-    color: #FFFFFF;
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
-}
-
-
+  }
+  .third-card-text{
+    padding-bottom: 1rem;
+    color: #171924;
+    
+  }
+ 
 /*** Screenshot ***/
 .screenshot-carousel {
     position: relative;
